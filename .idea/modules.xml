@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/jee-common/jee-common.iml" filepath="$PROJECT_DIR$/jee-common/jee-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/jee-project.iml" filepath="$PROJECT_DIR$/jee-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/jee-upms/jee-upms.iml" filepath="$PROJECT_DIR$/jee-upms/jee-upms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jee-upms/jee-upms-client/jee-upms-client.iml" filepath="$PROJECT_DIR$/jee-upms/jee-upms-client/jee-upms-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/jee-upms/jee-upms-dao/jee-upms-dao.iml" filepath="$PROJECT_DIR$/jee-upms/jee-upms-dao/jee-upms-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/jee-upms/jee-upms-rpc-api/jee-upms-rpc-api.iml" filepath="$PROJECT_DIR$/jee-upms/jee-upms-rpc-api/jee-upms-rpc-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/jee-upms/jee-upms-rpc-service/jee-upms-rpc-service.iml" filepath="$PROJECT_DIR$/jee-upms/jee-upms-rpc-service/jee-upms-rpc-service.iml" />

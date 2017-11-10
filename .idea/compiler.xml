@@ -7,14 +7,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jee-common" />
+        <module name="jee-upms-client" />
         <module name="jee-upms-dao" />
+        <module name="jee-upms-rpc-api" />
+        <module name="jee-upms-rpc-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="jee-common" target="1.8" />
       <module name="jee-project" target="1.8" />
       <module name="jee-upms" target="1.8" />
+      <module name="jee-upms-client" target="1.8" />
       <module name="jee-upms-dao" target="1.8" />
+      <module name="jee-upms-rpc-api" target="1.8" />
+      <module name="jee-upms-rpc-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

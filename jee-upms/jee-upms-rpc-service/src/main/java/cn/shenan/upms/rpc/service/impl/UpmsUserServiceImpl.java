@@ -1,7 +1,7 @@
 package cn.shenan.upms.rpc.service.impl;
 
-import com.zheng.common.annotation.BaseService;
-import com.zheng.common.base.BaseServiceImpl;
+import cn.shenan.common.annotation.BaseService;
+import cn.shenan.common.base.BaseServiceImpl;
 import cn.shenan.upms.dao.mapper.UpmsUserMapper;
 import cn.shenan.upms.dao.model.UpmsUser;
 import cn.shenan.upms.dao.model.UpmsUserExample;
@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 /**
 * UpmsUserService实现
-* Created by shuzheng on 2017/11/3.
+* Created by shenan on 2017/11/3.
 */
 @Service
 @Transactional

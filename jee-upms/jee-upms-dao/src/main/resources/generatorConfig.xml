@@ -21,7 +21,7 @@
         </plugin>
 
         <!-- 生成一个新的selectByExample方法，这个方法可以接收offset和limit参数，主要用来实现分页，只支持mysql(已使用pagehelper代替) -->
-        <!--<plugin type="com.zheng.common.plugin.PaginationPlugin"></plugin>-->
+        <!--<plugin type="cn.shenan.common.plugin.PaginationPlugin"></plugin>-->
 
         <!-- 生成在XML中的<cache>元素 -->
         <plugin type="org.mybatis.generator.plugins.CachePlugin">
@@ -61,8 +61,17 @@
         <javaClientGenerator targetPackage="cn.shenan.upms.dao.mapper" targetProject="D:/BIMPlatformWorkSpace/jee-project/jee-upms/jee-upms-dao/src/main/java" type="XMLMAPPER" />
 
         <!-- 需要映射的表 -->
-                                    <table tableName="upms_user" domainObjectName="UpmsUser">
+                                    <table tableName="upms_log" domainObjectName="UpmsLog"></table>
+                                                <table tableName="upms_organization" domainObjectName="UpmsOrganization"></table>
+                                                <table tableName="upms_permission" domainObjectName="UpmsPermission"></table>
+                                                <table tableName="upms_role" domainObjectName="UpmsRole"></table>
+                                                <table tableName="upms_role_permission" domainObjectName="UpmsRolePermission"></table>
+                                                <table tableName="upms_system" domainObjectName="UpmsSystem"></table>
+                                                <table tableName="upms_user" domainObjectName="UpmsUser">
                     <generatedKey column="user_id" sqlStatement="MySql" identity="true"/>
                 </table>
+                                                <table tableName="upms_user_organization" domainObjectName="UpmsUserOrganization"></table>
+                                                <table tableName="upms_user_permission" domainObjectName="UpmsUserPermission"></table>
+                                                <table tableName="upms_user_role" domainObjectName="UpmsUserRole"></table>
                         </context>
 </generatorConfiguration>
